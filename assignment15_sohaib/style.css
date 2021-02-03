@@ -1,8 +1,12 @@
 body{
     text-align: center;
+    background-image: linear-gradient(180deg, aqua, blue);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
 }
 
-h1{
+div.one h1{
     display: inline-block;
     width: 80px;
     height: 50px;
@@ -10,4 +14,47 @@ h1{
     background-color: black;
     padding-top: 10px;
     margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px;
+}
+div.two{
+    width: 100%;
+    height: 150px;
+}
+div.one{
+    height: 100px;
+}
+.btn{
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+.btn:hover{
+    background-color: lightskyblue;
+}
+
+
+/* TIMER CSS */
+div.three h1{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px;
+}
+
+div.subone{
+    display: inline-block;
+    margin-left: 15px;
 }
